@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="8.0.1" transformSequenceNumber="3">
+  <directoryPresets config="D:/eclipse/test2/bin" />
+  <application name="RunProcess" distributionSourceDir="D:/eclipse/test2" />
+  <executable name="RunProcess" wrapperType="embed" executableMode="gui" />
+  <java mainClass="test2.JFInfo" vmParameters="-Dfile.encoding=utf-8" preferredVM="client" minVersion="1.7" maxVersion="18.0">
+    <classPath>
+      <archive location="D:/eclipse/test2/JTYX.jar" failOnError="false" />
+      <envVar name="JAVA_HOME" failOnError="false" />
+      <envVar name="JDK_HOME" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>
